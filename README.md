@@ -18,7 +18,7 @@ The operating system can be configured at compile time using the following defin
   - `OS_TASK_COUNT` controls how many tasks _may_ be created simultaneously.
 
 ## License
-Copyright 2019 Stephan Brunner
+Copyright 2020 Stephan Brunner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
