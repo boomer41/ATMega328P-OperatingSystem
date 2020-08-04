@@ -23,4 +23,4 @@ image.bin: image.elf
 	$(OBJCOPY) image.elf -O binary image.bin
 
 clean:
-	rm -f *.o *.elf *.hex
+	rm -f *.o *.elf *.hex *.bin
