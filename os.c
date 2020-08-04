@@ -120,7 +120,6 @@ void* os_current_task_get_data(void) {
 }
 
 void os_current_task_kill(void) {
-
     ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
         tasks[task_current_idx].valid = 0;
     }
